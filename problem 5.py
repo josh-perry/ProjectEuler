@@ -15,11 +15,13 @@ def check_div(n):
 
 
 def euler_5():
+        # Number to check
     n = 0
 
     while True:
         n += 20
 
+        # If check_div returns True then we found the answer, so break out
         if check_div(n):
             print("The correct answer should be: " + str(n))
             break
